@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min-height: 100%;
+    max-width: 1250px;
+    margin: 0px auto;
+    background: rgb(71, 77, 129);
+}
+
+.ghost {
+    animation-name: ghost;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ghost {
+    0% {
+        transform: translateY(15px)
+    }
+
+    50% {
+        transform: translateY(0px)
+    }
+
+    100% {
+        transform: translateY(15px)
+    }
+}
+
+.stars {
+    animation-name: stars;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.stars2 {
+    animation-name: stars;
+    animation-duration: 8s;
+    animation-delay: 3s;
+}
+
+@keyframes stars {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.03);
+    }
+}
+
+.pumpkin {
+    -webkit-animation: bounce-top 0.9s both;
+    animation: bounce-top 0.9s both;
+}
+
+.trees {
+    animation-duration: 2s;
+}
+
+.trees:hover {
+    fill: black;
+}
+
+p {
+    width: 200px;
+}
+
+
+
+/*          SVG colors          */
+
+.cls-1 {
+    fill: #fff8e3;
+}
+
+.cls-2 {
+    fill: #fffc9c;
+}
+
+.cls-3 {
+    fill: #162433;
+}
+
+.cls-4 {
+    fill: #5e4318;
+}
+
+.cls-5 {
+    fill: #0a600a;
+}
+
+.cls-6 {
+    fill: #035903;
+}
+
+.cls-7 {
+    fill: #094c09;
+}
+
+.cls-8 {
+    fill: #005e00;
+}
+
+.cls-9 {
+    fill: #060;
+}
+
+.cls-10 {
+    fill: #aa5b30;
+}
+
+.cls-11 {
+    fill: #cc7236;
+}
+
+.cls-12 {
+    fill: #360;
+}
+
+.cls-13 {
+    fill: #191919;
+}
+
+.cls-14 {
+    fill: #294900;
+}
+
+.cls-15 {
+    fill: #cecece;
+}
+
+.cls-16 {
+    fill: #828282;
+}
